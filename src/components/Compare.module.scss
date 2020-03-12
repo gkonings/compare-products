@@ -1,0 +1,45 @@
+@import "~variables.scss";
+
+.page {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  margin-left: auto;
+  @media (min-width: $small-up) {
+    padding: 10px;
+  }
+}
+
+.header {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: $color-brand;
+}
+
+.table {
+  border-top: $color-light-grey 1px solid;
+  border-collapse: collapse;
+
+  th {
+    max-width: 200px;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  th,
+  td {
+    padding: 5px;
+  }
+}
+
+.propertyRow {
+  border-right: $color-light-grey 1px solid;
+}
+
+.highlight {
+  background: $color-light-grey;
+}
+
+.value {
+  font-weight: bold;
+}

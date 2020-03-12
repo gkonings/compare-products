@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.checkbox {
+  display: flex;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.label {
+  display: flex;
+  cursor: pointer;
+}
